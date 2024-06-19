@@ -1,11 +1,11 @@
-package ExemplosAula20;
+package ExemploStatic;
 
 import java.util.Random;
 public class Conta {
 
-    float saldo;
+    private float saldo;
     String titular;
-    String identificador;
+    private String identificador;
     String senha;
     static String nomeBanco;
 
@@ -20,7 +20,11 @@ public class Conta {
         geraIdentificador();
         this.titular = titular;
     }
-    void geraIdentificador(){
+
+    public String getIdentificador(){
+        return identificador;
+    }
+    private void geraIdentificador(){
         //char letra = (char) new Random().nextInt(65,91);
         //int valor = new Random().nextInt(1000, 10000);
         //identificador= letra+"_"+valor;

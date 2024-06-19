@@ -1,4 +1,4 @@
-package ExemplosAula20;
+package ExemploStatic;
 
 public class Operacoes {
     static int soma(int n1, int n2){

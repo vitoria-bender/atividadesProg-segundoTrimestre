@@ -1,4 +1,4 @@
-package ExemplosAula20;
+package ExemploStatic;
 
 public class calculadora {
     public static void main(String[] args) {
