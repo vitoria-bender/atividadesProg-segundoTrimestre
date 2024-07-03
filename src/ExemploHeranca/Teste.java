@@ -2,13 +2,13 @@ package ExemploHeranca;
 
 public class Teste {
     public static void main(String[] args) {
-        Funcionario f1 = new Funcionario();
-        f1.setNome("Jonas");
-        f1.setSobrenome("Silva");
-        f1.setSalario(1500);
+        Motorista m1 = new Motorista("Jonas", "Silva");
+        m1.setSobrenome("Souza");
+        m1.setSalario(1500);
+        m1.setCnh("12345");
 
-        Motorista m1 = new Motorista();
-        m1.setNome("Motorista");
-        m1.setSobrenome("Silva");
+        Engenheiro E1 = new Engenheiro("Carlos", "da Rosa");
+        E1.setSalario(2300);
+        E1.setCrea("123.321");
     }
 }

@@ -3,6 +3,13 @@ package ExemploHeranca;
 public class Funcionario {
     private String nome;
     private String sobrenome;
+    private float salario;
+
+
+    public Funcionario(String nome, String sobrenome){
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+    }
 
     public String getNome() {
         return nome;
@@ -27,8 +34,6 @@ public class Funcionario {
     public void setSalario(float salario) {
         this.salario = salario;
     }
-
-    private float salario;
 
 
 }
