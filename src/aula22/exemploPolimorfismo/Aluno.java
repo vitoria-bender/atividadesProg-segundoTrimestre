@@ -11,7 +11,7 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
-        public String obterDados(){
+    public String obterDados(){
             return "nome: "+getNome()+" "+getSobrenome()+"Matrícula: "+matricula;
         }
 }
